@@ -4,6 +4,13 @@ OrderType = Dict
 WarehousesType = List[Dict]
 ShipmentType = List[Dict]
 
+"""
+This is my attempt to solve the inventory allocator problem.
+It was my first time trying to solve an optimization problem so it was quite the challenge.
+I didn't include test units since the following code only works for some of the test unit examples and
+it has plenty of room for improvement.
+"""
+
 
 def allocate_inventory(order: OrderType, warehouses: WarehousesType) -> ShipmentType:
     """
